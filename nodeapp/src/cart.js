@@ -4,7 +4,7 @@ export function calculateOrderTotal(items, shippingFee = 5) {
   }, 0);
 
   if (subtotal >= 100) {
-    return subtotal + shippingFee;
+    return subtotal ;
   }
 
   return subtotal + shippingFee;
