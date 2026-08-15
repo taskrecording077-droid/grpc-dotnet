@@ -1,0 +1,18 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug nodeapp tests",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/nodeapp/test/cart.test.js",
+      "runtimeArgs": ["--test"],
+      "cwd": "${workspaceFolder}/nodeapp",
+      "console": "integratedTerminal",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "internalConsoleOptions": "neverOpen"
+    }
+  ]
+}

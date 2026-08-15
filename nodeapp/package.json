@@ -1,0 +1,11 @@
+{
+  "name": "debug-demo-nodeapp",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test",
+    "debug:test": "node --inspect-brk --test"
+  }
+}
